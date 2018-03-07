@@ -22,7 +22,12 @@
         {
           "name": "steemit",
           "image": "https://holgern.github.io/feeds/main/images/steemit-logo.png",
-          "checksum": "947f7be4bbd779714f544a50098960264f0d6aaa81ac5c59ecc4bb264b7e7880"
+          "checksum": "737bd64ee5f9da1c8f353087bc0a39247067aa5e93300f9d3e027585bcaec072"
+        },
+        {
+          "name": "steemit-beta",
+          "image": "https://holgern.github.io/feeds/main/images/steemit-logo2.png",
+          "checksum": "fc2ab9f5c25bcdb3853d3fb23f709b047e561937dc43028e02465ccdb5378a50"
         }
       ],
       "safe": [
