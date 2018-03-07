@@ -1,0 +1,38 @@
+{
+  "name": "default-feed",
+  "url": "https://holgern.github.io/steemphish/feeds/main/main.json",
+  "schema": "1.0",
+  "version": "20171211104288",
+  "sites": [
+    {
+      "name": "steemit",
+      "src": "https://holgern.github.io/steemphish/feeds/main/main.json",
+      "protected": [
+        {
+          "url": "https://steemit.com/",
+          "login_check": {
+            "password": 2
+          }
+        },
+        {
+          "url": "https://steemit.com/login.html"
+        },
+        {
+          "url": "https://signup.steemit.com/"
+        }
+      ],
+      "templates": [
+        {
+          "name": "steemit",
+          "image": "https://holgern.github.io/steemphish/feeds/main/images/steemit-logo.png",
+          "checksum": "947f7be4bbd779714f544a50098960264f0d6aaa81ac5c59ecc4bb264b7e7880"
+        }
+      ],
+      "safe": [
+        {
+          "domain": "steemit.com"
+        }
+      ]
+    }
+  ]
+}
