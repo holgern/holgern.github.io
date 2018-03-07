@@ -9,12 +9,6 @@
       "src": "https://holgern.github.io/feeds/main/main.json",
       "protected": [
         {
-          "url": "https://steemit.com/",
-          "login_check": {
-            "password": 2
-          }
-        },
-        {
           "url": "https://steemit.com/login.html"
         },
         {
