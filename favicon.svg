@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="nixwerk favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bg)"/>
+
+  <polygon
+    points="256,104 386,180 386,332 256,408 126,332 126,180"
+    fill="none"
+    stroke="url(#accent)"
+    stroke-width="18"
+    stroke-linejoin="round"
+    opacity="0.65"/>
+
+  <g filter="url(#shadow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 356 L168 156" stroke="#f8fafc" stroke-width="50"/>
+    <path d="M168 156 L344 356" stroke="url(#accent)" stroke-width="50"/>
+    <path d="M344 356 L344 156" stroke="#f8fafc" stroke-width="50"/>
+  </g>
+
+  <circle cx="168" cy="156" r="18" fill="#22d3ee" opacity="0.95"/>
+  <circle cx="344" cy="356" r="18" fill="#38bdf8" opacity="0.95"/>
+</svg>
